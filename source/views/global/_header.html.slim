@@ -1,0 +1,13 @@
+header id="header"
+	div class="contener"
+		= link_to data.navigation.top.title, data.navigation.top.link, class: "scrollup navlogo"
+
+		button type="button" class="icon-menu" id="navbutton"
+			span
+
+		nav
+			h1 class="visuallyhidden" Navigation principale
+			ul
+				- data.navigation.nav.each_with_index do |naventries|
+					/ p class="scrollto" = naventries.title
+					li = link_to naventries.title, naventries.link

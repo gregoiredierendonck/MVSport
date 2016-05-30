@@ -1,0 +1,11 @@
+site:
+  title: "MV Sport"
+  i18n: fr
+  url: http://www.mvsport.fr/
+  domain: www.mvsport.fr/
+  author: Grégoire Dierendonck
+  email: "bonjour@mvsport.fr"
+
+footer:
+  copyright: "© MV Sport 2016"
+  tel: "XXX"

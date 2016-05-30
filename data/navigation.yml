@@ -1,0 +1,7 @@
+top:
+  title: MV Sport
+  link: "#accueil"
+nav:
+  -
+    title: Entrée 1
+    link: "#entree1"
