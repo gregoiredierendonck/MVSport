@@ -1,0 +1,14 @@
+footer
+	h2 class="visuallyhidden" Mentions légales & crédits
+
+	div class="footer-image"
+
+	div class="footer-infos"
+		= data.settings.footer.copyright
+		/ span |
+		/ = data.settings.footer.tel
+		span |
+		= link_to data.settings.footer.mentions, "#{data.settings.footer.mentionspath}"
+		span |
+		= data.settings.footer.credit
+		= link_to data.settings.footer.creditlinktext, "#{data.settings.footer.creditlinkpath}", target: "_blank"
