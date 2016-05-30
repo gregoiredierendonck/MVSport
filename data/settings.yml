@@ -1,10 +1,10 @@
 site:
   title: "MV Sport"
   i18n: fr
-  url: http://www.mvsport.fr/
-  domain: www.mvsport.fr/
+  url: http://gregoiredierendonck.github.io/MVSport/
+  domain: gregoiredierendonck.github.io/MVSport/
   author: Grégoire Dierendonck
-  email: "bonjour@mvsport.fr"
+  email: "XXX"
 
 footer:
   copyright: "© MV Sport 2016"
