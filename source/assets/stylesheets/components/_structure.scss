@@ -1,0 +1,12 @@
+body {
+
+  text-align: center;
+
+  section, header, footer {
+    width: 100%;
+    max-width: $media-xl;
+    display: inline-block;
+    text-align: left;
+  }
+
+}

@@ -1,0 +1,28 @@
+.box-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  li {
+    padding: 30px 40px;
+    box-shadow: 0 0 30px -6px rgba(0, 0, 0, .3);
+
+    &.three-col {
+      width: 31.33%;
+      margin: 1.75vw 0 0;
+    }
+    &.four-col {
+      width: 23%;
+      margin: 1.75vw 0 0;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 140%;
+    }
+    h3, h4 {
+      margin-top: 0;
+    }
+  }
+}

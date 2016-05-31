@@ -9,5 +9,4 @@ header id="header"
 			h1 class="visuallyhidden" Navigation principale
 			ul
 				- data.navigation.nav.each_with_index do |naventries|
-					/ p class="scrollto" = naventries.title
 					li = link_to naventries.title, naventries.link

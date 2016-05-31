@@ -1,9 +1,5 @@
 // COLORS
 $white: #ffffff;
-// $gray: #9AA3AD;
-// $black: rgba(0, 0, 0, 0.9);
-// $c1: #813772;
-// $c2: #E52A6F;
 $gray: #90A4AE;
 $black: #263238;
 $c1: #455A64;
@@ -13,31 +9,15 @@ $red: #FF1744;
 $green: #00E676;
 
 // FONTS
-@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic);
-
-$primary-font: 'Open Sans', "Helvetica Neue", helvetica, arial, sans-serif;
-$secondary-font: 'Lora', Georgia, serif;
-
-$font-s: 100;
-$font-m: 300;
-$font-l: 600;
-
-$font-s-m: 16px;
-$font-s-l: 18px;
-
-$line-height-xs: 80%;
-$line-height-s: 100%;
-$line-height-m: 120%;
-$line-height-l: 140%;
-$line-height-xl: 180%;
+@import url(https://fonts.googleapis.com/css?family=Muli:400,300);
+$primary-font: 'Muli', "Helvetica Neue", helvetica, arial, sans-serif;
 
 // MEDIA QUERIES
 $media-s: 480px;
 $media-sm: 540px;
 $media-m: 760px;
 $media-l: 880px;
-$media-xl: 1028px;
+$media-xl: 1200px;
 
 // NAV
 $logowidth: 70px;
