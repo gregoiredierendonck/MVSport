@@ -1,16 +1,14 @@
 h1: "MV Sport <i>: </i><span>Coach sportif, à domicile ou à distance</span>"
 
-# p: |
-#   Séance d'essai gratuite !
-
-#   h3: Pourquoi opter pour le coaching personelle ?
-#   Vous hésitez encore à opter pour la solution du coaching personalisé ? Découvrez les avantages que vous allez en tirer.
-
-#   h3: À propos de moi
-#   Je suis Emmanuelle Vanacker, diplômé "éducateur sportif", possédant un Master "métiers de l'enseignement et de la formation" ainsi qu'une licence et qu'un Deug STAPS.
-#   Je suis également secouriste Prévention et Secours Civique de niveau 1.
-#   Sans cesse motivé et de bonne humeur, je suis passionné par le sport mais aussi par XXX.
-#   Vous souhaitez me connaître d'avantage ? Rencontrons-nous lors de la séance d'essai !
+imageone:
+  path: "http://placehold.it/400x500"
+  title: "XXX"
+imagetwo:
+  path: "http://placehold.it/800x500"
+  title: "XXX"
+imagethree:
+  path: "http://placehold.it/400x400"
+  title: "XXX"
 
 introduction:
   h1: "Le coaching sportif à domicile"
@@ -21,11 +19,9 @@ introduction:
 
 fonctionnement:
   h1: "Le fonctionnement"
-  texte: |
-    Quel que soient vos objectifs, je vous propose de procéder de la manière suivante&nbsp;:
   liste:
     -
-      "Vous me laissez votre numéro de téléphone sur cette page, je vous rappelle au moment que vous désirez."
+      "Vous me contactez depuis cette page web, vous me laissez vos coordonnées et je vous rappelle au moment que vous désirez."
     -
       "Nous définissons vos objectifs, discutons de vos envies et de vos disponibilités."
     -
@@ -38,19 +34,18 @@ seances:
   texte: |
     Les séances d'entraînement durent de 1h à 2h selon vos objectifs et vos disponibilités, et dans le lieu de votre choix (chez vous, par exemple),
     où je me charge d'apporter le matériel (tapis épais, altères, bandes élastiques, bâton de gym, gymnastique ball...).
+    <br/>
+    <br/>
+    Bien qu'un rythme de 2 séances par semaines soit généralement recommandé,
+    nous conviendrons ensemble d'une récurrence des séances selon votre emploi du temps
+    dans le but d'obtenir le plus rapidement possible les meilleurs résultats.
 
 pourqui:
   h1: "À qui s'adresse ce programme&nbsp;?"
   texte: |
-    Les programmes que je vous propose de suivre sont adaptés à tous types de structure&nbsp;:
+    Les programmes que je vous propose de suivre sont adaptés à des personnes uniques (vous, par exemple)
+    ou à des groupes de 3 personnes maximum (entre amis, entre collègues), quel que soit l'objectif recherché&nbsp;:
   liste:
-    -
-      "1 personne (Vous, par exemple)"
-    -
-      "Un groupe : entre collègues, entre amis (3 personnes maximum)"
-  texte2: |
-    Ces programmes sont spécifiquement adaptés à tous types de profils&nbsp;:
-  liste2:
     -
       "Conseils en nutrition"
     -
@@ -68,7 +63,6 @@ pourqui:
 
 avantages:
   h1: "Les avantages du coaching personnalisé"
-  texte: "Le coaching personnalisé vous apportera de nombreux avantages&nbsp;:"
   liste:
     -
       title: "Un environnement plus propice à l'effort"

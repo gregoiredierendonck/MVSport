@@ -1,12 +1,32 @@
 body {
 
+  img {
+    width: auto;
+    max-width: 100%;
+  }
+
   text-align: center;
 
   section, header, footer {
     width: 100%;
-    max-width: $media-xl;
+    max-width: $max-width;
     display: inline-block;
     text-align: left;
+  }
+
+  .image-only {
+    width: 100%;
+    max-width: $max-width;
+    text-align: center;
+    margin: 50px 0;
+  }
+
+  .two-columns {
+    display: flex;
+    width: 100%;
+    max-width: $max-width;
+    margin: 0 auto;
+    .column {width: 50%;}
   }
 
 }

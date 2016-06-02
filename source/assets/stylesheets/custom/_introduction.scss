@@ -1,0 +1,29 @@
+#introduction {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  max-width: 800px;
+  margin: 50px auto;
+
+  .text {}
+
+  img {
+    width: 50%;
+    margin-right: 50px;
+  }
+
+}
+
+#fonctionnement {
+  text-align: center;
+}
+
+#avantages {
+  .box-list li.img {
+    box-shadow: none;
+    padding: 0;
+    order: 2;
+  }
+}

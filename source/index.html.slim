@@ -10,36 +10,37 @@ div id="hero-intro"
   h1 = data.content.h1
 
 section id="introduction"
-  h2 = data.content.introduction.h1
-  p = data.content.introduction.texte
+  = image_tag data.content.imageone.path, alt: "#{data.settings.site.title} - #{data.content.imageone.title}"
+  div class="text"
+    h2 class="visuallyhidden" = data.content.introduction.h1
+    p = data.content.introduction.texte
 
 section id="fonctionnement"
   h2 = data.content.fonctionnement.h1
-  p = data.content.fonctionnement.texte
   ol class="box-list text-center"
     - data.content.fonctionnement.liste.each_with_index do |listeelement|
       li class="four-col" = listeelement
 
-section id="pourqui"
-  h2 = data.content.pourqui.h1
-  p = data.content.pourqui.texte
-  ul
-    - data.content.pourqui.liste.each_with_index do |listeelement|
-      li = listeelement
-  p = data.content.pourqui.texte2
-  ul
-    - data.content.pourqui.liste2.each_with_index do |listeelement|
-      li = listeelement
+section class="image-only"
+  = image_tag data.content.imagetwo.path, alt: "#{data.settings.site.title} - #{data.content.imagetwo.title}"
 
-section id="seances"
-  h2 = data.content.seances.h1
-  p = data.content.seances.texte
+div class="two-columns"
+  section id="pourqui" class="column"
+    h2 = data.content.pourqui.h1
+    p = data.content.pourqui.texte
+    ul
+      - data.content.pourqui.liste.each_with_index do |listeelement|
+        li = listeelement
+  section id="seances" class="column"
+    h2 = data.content.seances.h1
+    p = data.content.seances.texte
 
 section id="avantages"
-  h2 = data.content.avantages.h1
-  p = data.content.avantages.texte
+  h2 class="text-center" = data.content.avantages.h1
   ul class="box-list 4-col"
     - data.content.avantages.liste.each_with_index do |listeelement|
       li class="three-col"
         h3 = listeelement.title
         p = listeelement.texte
+    li class="three-col img"
+      = image_tag data.content.imagethree.path, alt: "#{data.settings.site.title} - #{data.content.imagethree.title}"
