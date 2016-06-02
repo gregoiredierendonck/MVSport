@@ -1,8 +1,8 @@
 body {
   font-family: $primary-font;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 140%;
-  font-weight: 400;
+  font-weight: 100;
   color: $black;
 }
 
@@ -10,23 +10,26 @@ body {
 .text-center {text-align: center;}
 
 h1, .h1 {
-  font-size: 36px;
-  line-height: 40px;
-  font-weight: 600;
   width: 100%;
   display: inline-block;
-  margin: 60px 0 40px;
+  font-size: 36px;
+  line-height: 40px;
+  width: 100%;
+  display: inline-block;
+  i {
+    width: 100%;
+    display: inline-block;
+    font-size: 16px;
+  }
 }
 
 h2, .h2 {
   font-size: 26px;
-  font-weight: 600;
   margin: 40px 0 30px;
 }
 
 h3, .h3 {
   font-size: 18px;
-  font-weight: 600;
   margin: 30px 0 20px;
 }
 

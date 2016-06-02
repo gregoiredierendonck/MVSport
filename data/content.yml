@@ -1,7 +1,10 @@
-h1: "MV Sport <i>: </i><span>Coach sportif, à domicile ou à distance</span>"
+h1: "Coach sportif à domicile<i>à proximité de Lille, Marcq-en-Baroeul et La Madeline</i>"
+logo:
+  path: "MVSport-logo.svg"
+  title: "MVSport - logo"
 
 imageone:
-  path: "http://placehold.it/400x500"
+  path: "img1.jpg"
   title: "XXX"
 imagetwo:
   path: "http://placehold.it/800x500"
@@ -11,17 +14,27 @@ imagethree:
   title: "XXX"
 
 introduction:
-  h1: "Le coaching sportif à domicile"
   texte: |
-    Accompagné d'un coach personnel, vous allez enfin pouvoir progresser à votre rythme
-    et atteindre vos objectifs grâce à des conseils réellement ciblés
-    ainsi qu'une compréhension de vos objectifs et de vos contraintes.
+    Bonjour, je m'appelle Emmanuel Vanacker, coach sportif diplômé et je vous propose
+    de vous accompagner dans votre activité sportive de manière à la rendre plus amusante et plus efficace 
+    en vous apportant un conseil sur-mesure, réellement adaptés à votre personnalité et à vos 
+    capacités physiques.
+    <br/>
+    <br/>
+    Le principe est simple : selon le programme que nous nous sommes fixés, je me rend sur 
+    le lieu de votre choix à proximité de Lille, Marcq-en-Barouel et La Madeleine et vous accompagne 
+    dans votre entaînement sportif, en m'adaptant 
+    à votre emploi du temps, vos envies et vos objectifs.
+    <br/>
+    <br/>
+    Vous êtes désireux d'atteindre enfin les objectifs que vous vous êtes fixés 
+    de manière ludique et attractive ? Alors c'est parti.
 
 fonctionnement:
   h1: "Le fonctionnement"
   liste:
     -
-      "Vous me contactez depuis cette page web, vous me laissez vos coordonnées et je vous rappelle au moment que vous désirez."
+      "Vous me contactez, vous me laissez vos coordonnées et je vous rappelle au moment que vous désirez."
     -
       "Nous définissons vos objectifs, discutons de vos envies et de vos disponibilités."
     -
@@ -62,7 +75,7 @@ pourqui:
       "Préparation physique"
 
 avantages:
-  h1: "Les avantages du coaching personnalisé"
+  h1: "Les avantages d'un coach sportif"
   liste:
     -
       title: "Un environnement plus propice à l'effort"

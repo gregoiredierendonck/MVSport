@@ -7,40 +7,40 @@ priority: "1"
 ---
 
 div id="hero-intro"
-  h1 = data.content.h1
+	= image_tag data.content.logo.path, alt: "#{data.settings.site.title} - #{data.content.logo.title}"
+	h1 = data.content.h1
 
-section id="introduction"
-  = image_tag data.content.imageone.path, alt: "#{data.settings.site.title} - #{data.content.imageone.title}"
-  div class="text"
-    h2 class="visuallyhidden" = data.content.introduction.h1
-    p = data.content.introduction.texte
+div id="introduction"
+	= image_tag data.content.imageone.path, alt: "#{data.settings.site.title} - #{data.content.imageone.title}"
+	div class="text"
+		p = data.content.introduction.texte
 
 section id="fonctionnement"
-  h2 = data.content.fonctionnement.h1
-  ol class="box-list text-center"
-    - data.content.fonctionnement.liste.each_with_index do |listeelement|
-      li class="four-col" = listeelement
+	h2 = data.content.fonctionnement.h1
+	ol class="box-list text-center grid four-col"
+		- data.content.fonctionnement.liste.each_with_index do |listeelement|
+			li class="column" = listeelement
 
-section class="image-only"
-  = image_tag data.content.imagetwo.path, alt: "#{data.settings.site.title} - #{data.content.imagetwo.title}"
+div class="image-only"
+	= image_tag data.content.imagetwo.path, alt: "#{data.settings.site.title} - #{data.content.imagetwo.title}"
 
-div class="two-columns"
-  section id="pourqui" class="column"
-    h2 = data.content.pourqui.h1
-    p = data.content.pourqui.texte
-    ul
-      - data.content.pourqui.liste.each_with_index do |listeelement|
-        li = listeelement
-  section id="seances" class="column"
-    h2 = data.content.seances.h1
-    p = data.content.seances.texte
+div class="grid two-col"
+	section id="pourqui" class="column"
+		h2 = data.content.pourqui.h1
+		p = data.content.pourqui.texte
+		ul
+			- data.content.pourqui.liste.each_with_index do |listeelement|
+				li = listeelement
+	section id="seances" class="column"
+		h2 = data.content.seances.h1
+		p = data.content.seances.texte
 
 section id="avantages"
-  h2 class="text-center" = data.content.avantages.h1
-  ul class="box-list 4-col"
-    - data.content.avantages.liste.each_with_index do |listeelement|
-      li class="three-col"
-        h3 = listeelement.title
-        p = listeelement.texte
-    li class="three-col img"
-      = image_tag data.content.imagethree.path, alt: "#{data.settings.site.title} - #{data.content.imagethree.title}"
+	h2 class="text-center" = data.content.avantages.h1
+	ul class="box-list grid three-col"
+		- data.content.avantages.liste.each_with_index do |listeelement|
+			li class="column"
+				h3 = listeelement.title
+				p = listeelement.texte
+	li class="column img"
+		= image_tag data.content.imagethree.path, alt: "#{data.settings.site.title} - #{data.content.imagethree.title}"

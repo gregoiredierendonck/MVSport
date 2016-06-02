@@ -1,16 +1,16 @@
 // COLORS
 $white: #ffffff;
 $gray: #90A4AE;
-$black: #263238;
-$c1: #455A64;
+$black: #37474F;
+$c1: #FF3D00;
 $c2: #263238;
 
 $red: #FF1744;
 $green: #00E676;
 
 // FONTS
-@import url(https://fonts.googleapis.com/css?family=Muli:400,300);
-$primary-font: 'Muli', "Helvetica Neue", helvetica, arial, sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,300,300italic);
+$primary-font: 'Open Sans', "Helvetica Neue", helvetica, arial, sans-serif;
 
 // MEDIA QUERIES
 $media-s: 480px;
