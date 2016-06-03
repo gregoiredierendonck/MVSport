@@ -2,12 +2,14 @@
 
 @import "variables";
 @import "components/reset";
+@import "components/grid";
 @import "components/fonts";
 @import "components/structure";
+@import "components/panel";
+@import "components/borders";
 
 @import "modules/header";
 @import "modules/header-small";
-@import "modules/box-list";
 
 @import "custom/hero-intro";
 @import "custom/introduction";

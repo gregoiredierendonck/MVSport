@@ -1,0 +1,14 @@
+.whitepanel {
+		list-style: none;
+		padding-left: 0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding: 30px 40px;
+		box-shadow: 0 0 30px -6px rgba(0, 0, 0, .3);
+}
+
+.darkpanel {
+	background-color: $black;
+	color: $white;
+}

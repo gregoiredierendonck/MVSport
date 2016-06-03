@@ -10,19 +10,30 @@ div id="hero-intro"
 	= image_tag data.content.logo.path, alt: "#{data.settings.site.title} - #{data.content.logo.title}"
 	h1 = data.content.h1
 
-div id="introduction"
-	= image_tag data.content.imageone.path, alt: "#{data.settings.site.title} - #{data.content.imageone.title}"
-	div class="text"
+div id="introduction" class="grid two-col"
+	= image_tag data.content.imageone.path, alt: "#{data.settings.site.title} - #{data.content.imageone.title}", class: "b-right column"
+	div class="text column"
 		p = data.content.introduction.texte
 
 section id="fonctionnement"
 	h2 = data.content.fonctionnement.h1
 	ol class="box-list text-center grid four-col"
 		- data.content.fonctionnement.liste.each_with_index do |listeelement|
-			li class="column" = listeelement
+			li class="column whitepanel" = listeelement
+
+section id="contact" class="darkpanel"
+	h2 = data.content.contact.title
+	p = data.content.contact.texte
+	div class="contactinfos grid two-col"
+		div class="column"
+			span class="contactlegend" = data.content.contact.teltexte
+			span class="contactbig" = data.content.contact.telinfo
+		div class="column"
+			span class="contactlegend" = data.content.contact.emailtexte
+			span class="contactbig" = data.content.contact.emailinfo
 
 div class="image-only"
-	= image_tag data.content.imagetwo.path, alt: "#{data.settings.site.title} - #{data.content.imagetwo.title}"
+	= image_tag data.content.imagetwo.path, alt: "#{data.settings.site.title} - #{data.content.imagetwo.title}", class: "b-bottom"
 
 div class="grid two-col"
 	section id="pourqui" class="column"
@@ -39,8 +50,6 @@ section id="avantages"
 	h2 class="text-center" = data.content.avantages.h1
 	ul class="box-list grid three-col"
 		- data.content.avantages.liste.each_with_index do |listeelement|
-			li class="column"
+			li class="column whitepanel"
 				h3 = listeelement.title
 				p = listeelement.texte
-	li class="column img"
-		= image_tag data.content.imagethree.path, alt: "#{data.settings.site.title} - #{data.content.imagethree.title}"

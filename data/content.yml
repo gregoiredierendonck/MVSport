@@ -3,6 +3,15 @@ logo:
   path: "MVSport-logo.svg"
   title: "MVSport - logo"
 
+contact:
+  title: "Prêt pour obtenir des résultats&nbsp;?"
+  texte: "Téléphonez-moi ou laissez-moi vos coordonnées par sms ou par email,
+  et nous conviendrons d'un premier rendez-vous pour définir vos objectifs et vorte planning."
+  teltexte: "Par téléphone&nbsp;:"
+  telinfo: "0101010101"
+  emailtexte: "Par email&nbsp;:"
+  emailinfo: "hgft@hgfdft.fr"
+
 imageone:
   path: "img1.jpg"
   title: "XXX"
@@ -16,18 +25,18 @@ imagethree:
 introduction:
   texte: |
     Bonjour, je m'appelle Emmanuel Vanacker, coach sportif diplômé et je vous propose
-    de vous accompagner dans votre activité sportive de manière à la rendre plus amusante et plus efficace 
-    en vous apportant un conseil sur-mesure, réellement adaptés à votre personnalité et à vos 
+    de vous accompagner dans votre activité sportive de manière à la rendre plus amusante et plus efficace
+    en vous apportant un conseil sur-mesure, réellement adaptés à votre personnalité et à vos
     capacités physiques.
     <br/>
     <br/>
-    Le principe est simple : selon le programme que nous nous sommes fixés, je me rend sur 
-    le lieu de votre choix à proximité de Lille, Marcq-en-Barouel et La Madeleine et vous accompagne 
-    dans votre entaînement sportif, en m'adaptant 
+    Le principe est simple : selon le programme que nous nous sommes fixés, je me rend sur
+    le lieu de votre choix à proximité de Lille, Marcq-en-Barouel et La Madeleine et vous accompagne
+    dans votre entaînement sportif, en m'adaptant
     à votre emploi du temps, vos envies et vos objectifs.
     <br/>
     <br/>
-    Vous êtes désireux d'atteindre enfin les objectifs que vous vous êtes fixés 
+    Vous êtes désireux d'atteindre enfin les objectifs que vous vous êtes fixés
     de manière ludique et attractive ? Alors c'est parti.
 
 fonctionnement:

@@ -1,29 +1,48 @@
 #introduction {
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 80%;
-  max-width: 800px;
-  margin: 50px auto;
-
-  .text {}
-
-  img {
-    width: 50%;
-    margin-right: 50px;
-  }
-
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: left;
+	width: 80%;
+	max-width: 800px;
+	margin: 50px auto;
 }
 
 #fonctionnement {
-  text-align: center;
-}
-
-#avantages {
-  .box-list li.img {
-    box-shadow: none;
-    padding: 0;
-    order: 2;
-  }
+	text-align: center;
+	ol {
+		counter-reset: list-counter;
+		li {
+			position: relative;
+			&:before {
+				content: counter(list-counter);
+				counter-increment: list-counter;
+				width: 60px;
+				height: 60px;
+				margin: 0 auto 20px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				color: $c1;
+				border: 3px solid $c1;
+				border-radius: 60px;
+				background-color: $white;
+				font-size: 26px;
+				font-weight: 400;
+				position: relative;
+				z-index: 2;
+			}
+			&:after {
+				content: '';
+				width: calc(100% + 3.5vw);
+				height: 3px;
+				display: inline-block;
+				background-color: $c1;
+				position: absolute;
+				top: 62px;
+				left: -1.75vw;
+				z-index: 1;
+			}
+		}
+	}
 }
