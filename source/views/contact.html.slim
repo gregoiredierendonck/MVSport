@@ -1,0 +1,13 @@
+section id="contact" class="darkpanel no-max"
+  div class="max-width"
+    h2 class="h2" = data.content.contact.title
+    p = data.content.contact.texte
+    div class="contactinfos grid two-col"
+      div class="column"
+        span class="contactlegend" = data.content.contact.teltexte
+        span class="contactbig" = data.content.contact.telinfo
+      div class="column"
+        span class="contactlegend" = data.content.contact.emailtexte
+        = link_to data.content.contact.emailinfo, "mailto:#{data.content.contact.emailinfo}", class:"contactbig"
+    div class="offrecontact"
+      p = data.content.contact.offre

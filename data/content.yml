@@ -4,13 +4,14 @@ logo:
   title: "MVSport - logo"
 
 contact:
-  title: "Prêt pour obtenir des résultats&nbsp;?"
-  texte: "Téléphonez-moi ou laissez-moi vos coordonnées par sms ou par email,
-  et nous conviendrons d'un premier rendez-vous pour définir vos objectifs et vorte planning."
+  title: "Prêt à obtenir des résultats&nbsp;?"
+  texte: "Téléphonez-moi ou laissez-moi vos coordonnées par sms ou par email, <br/>
+  et nous conviendrons d'un premier rendez-vous pour définir vos objectifs et votre planning."
   teltexte: "Par téléphone&nbsp;:"
-  telinfo: "0101010101"
+  telinfo: "06&nbsp;21&nbsp;72&nbsp;12&nbsp;05"
   emailtexte: "Par email&nbsp;:"
-  emailinfo: "hgft@hgfdft.fr"
+  emailinfo: "mv.sport59@gmail.com"
+  offre: "Séance de découverte <b>offerte&nbsp;!</b>"
 
 imageone:
   path: "img1.jpg"
@@ -82,6 +83,17 @@ pourqui:
       "Pré et post natal"
     -
       "Préparation physique"
+
+apropos:
+  title: "À propos de moi"
+  texte: |
+    Je m'appelle Emmanuel Vanacker, j'ai 17 ans et j'habite à Lille. Je suis bien sur passionné avant tout de sport,
+    mais j'aime également lorem ipsum dolore amet.<br/>
+    <br/>
+    Je possède la carte professionnelle d'éducateur sportif, un Master métiers de l'enseignement et de la formation,
+    ainsi qu'une Licence et qu'un DEUG STAPS. Je suis également secouriste Prévention et Secours Civique de niveau 1<br/>
+    <br/>
+    N'hésitez plus... Vous étes entre de bonnes mains !
 
 avantages:
   h1: "Les avantages d'un coach sportif"

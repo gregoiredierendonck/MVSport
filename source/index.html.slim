@@ -10,9 +10,9 @@ div id="hero-intro"
 	= image_tag data.content.logo.path, alt: "#{data.settings.site.title} - #{data.content.logo.title}"
 	h1 = data.content.h1
 
-div id="introduction" class="grid two-col"
+div id="introduction" class="grid two-col max-width little-max row"
 	= image_tag data.content.imageone.path, alt: "#{data.settings.site.title} - #{data.content.imageone.title}", class: "b-right column"
-	div class="text column"
+	div class="text column p-left"
 		p = data.content.introduction.texte
 
 section id="fonctionnement"
@@ -21,30 +21,31 @@ section id="fonctionnement"
 		- data.content.fonctionnement.liste.each_with_index do |listeelement|
 			li class="column whitepanel" = listeelement
 
-section id="contact" class="darkpanel"
-	h2 = data.content.contact.title
-	p = data.content.contact.texte
-	div class="contactinfos grid two-col"
-		div class="column"
-			span class="contactlegend" = data.content.contact.teltexte
-			span class="contactbig" = data.content.contact.telinfo
-		div class="column"
-			span class="contactlegend" = data.content.contact.emailtexte
-			span class="contactbig" = data.content.contact.emailinfo
+= partial 'views/contact'
 
 div class="image-only"
 	= image_tag data.content.imagetwo.path, alt: "#{data.settings.site.title} - #{data.content.imagetwo.title}", class: "b-bottom"
 
-div class="grid two-col"
-	section id="pourqui" class="column"
+div class="grid two-col max-width little-max row"
+	section id="pourqui" class="column p-right"
 		h2 = data.content.pourqui.h1
 		p = data.content.pourqui.texte
 		ul
 			- data.content.pourqui.liste.each_with_index do |listeelement|
 				li = listeelement
-	section id="seances" class="column"
+	section id="seances" class="column p-left"
 		h2 = data.content.seances.h1
 		p = data.content.seances.texte
+
+section id="apropos" class="little-max"
+	div class="grid two-col"
+		div class="column p-right"
+			h2 = data.content.apropos.title
+			p = data.content.apropos.texte
+		div class="column"
+			= image_tag data.content.imagethree.path, alt: "#{data.settings.site.title} - #{data.content.imagethree.title}", class: "b-left"
+
+= partial 'views/contact'
 
 section id="avantages"
 	h2 class="text-center" = data.content.avantages.h1
@@ -53,3 +54,5 @@ section id="avantages"
 			li class="column whitepanel"
 				h3 = listeelement.title
 				p = listeelement.texte
+
+= partial 'views/contact'

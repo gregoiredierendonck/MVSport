@@ -7,11 +7,23 @@ body {
 
   text-align: center;
 
-  section, header, footer {
+  section, header, footer, .max-width {
     width: 100%;
     max-width: $max-width;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     text-align: left;
+    margin: 0 auto;
+    position: relative;
+
+    &.little-max {
+      max-width: $max-width-little;
+    }
+
+    &.no-max {
+      max-width: 100%;
+    }
+
   }
 
   .image-only {

@@ -1,0 +1,46 @@
+#contact {
+
+  margin: 70px 0;
+  &:last-of-type {margin-bottom: 0;}
+  padding: 0 50px 50px;
+  position: relative;
+
+  h2, .h2, p {text-align: center;}
+
+  .h2 {color: $c1;}
+
+  .grid {
+    justify-content: center;
+    .column {width: auto;}
+  }
+  .contactlegend, .contactbig {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin: 20px 0 0 0;
+  }
+  .contactlegend {
+    text-transform: uppercase;
+  }
+  .contactbig {
+    color: $c1;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .offrecontact {
+    position: absolute;
+    top: -15px;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    font-size: 14px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    background-color: $c1;
+    color: $white;
+    transform: rotate(10deg);
+  }
+}
