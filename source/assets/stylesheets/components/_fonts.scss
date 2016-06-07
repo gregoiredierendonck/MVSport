@@ -13,16 +13,18 @@ body {
 .text-center {text-align: center;}
 
 h1, .h1 {
-  width: 100%;
+  width: 80%;
   display: inline-block;
   font-size: 36px;
   line-height: 40px;
-  width: 100%;
-  display: inline-block;
   i {
-    width: 100%;
+    width: 80%;
     display: inline-block;
     font-size: 16px;
+    line-height: 140%;
+    @media screen and (max-width: 480px) {
+      margin-top: 20px;
+    }
   }
 }
 
@@ -30,6 +32,9 @@ h2, .h2 {
   font-size: 30px;
   line-height: 140%;
   margin: 40px 0;
+  @media screen and (max-width:600px) {
+    margin-top: 30px;
+  }
 }
 
 h3, .h3 {
@@ -40,8 +45,10 @@ h3, .h3 {
 
 ul, ol {
   padding-left: 40px;
-  margin: 20px 0;
+  margin: 0;
 }
 
 ul {list-style: disc;}
 ol {list-style: decimal;}
+
+a {word-break: break-all;line-height: 140%;}

@@ -43,4 +43,9 @@
     color: $white;
     transform: rotate(10deg);
   }
+
+  @media screen and (max-width: 700px) {
+    .max-width {padding-top: 60px;}
+    .offrecontact {right: 50%;margin-right: -50px;}
+  }
 }
