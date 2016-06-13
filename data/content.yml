@@ -1,12 +1,12 @@
-h1: "Coach sportif à domicile<i>à proximité de Lille, Marcq-en-Baroeul et La Madeline</i>"
+h1: "Coach sportif à domicile<i>à proximité de Lille, Marcq-en-Baroeul et La Madeleine</i>"
 logo:
   path: "MVSport-logo.svg"
   title: "MVSport - logo"
 
 contact:
   title: "Prêt à obtenir des résultats&nbsp;?"
-  texte: "Téléphonez-moi ou laissez-moi vos coordonnées par sms ou par email, <br/>
-  et nous conviendrons d'un premier rendez-vous pour définir vos objectifs et votre planning."
+  texte: "Téléphonez-moi <i>(7j/7 de 08h à 22h)</i> ou laissez-moi vos coordonnées par sms ou par email, <br/>
+  et nous conviendrons d'un premier rendez-vous pour définir vos objectifs et votre programme sportif."
   teltexte: "Par téléphone&nbsp;:"
   telinfo: "06&nbsp;21&nbsp;72&nbsp;12&nbsp;05"
   emailtexte: "Par email&nbsp;:"
@@ -25,20 +25,16 @@ imagethree:
 
 introduction:
   texte: |
-    Bonjour, je m'appelle Emmanuel Vanacker, coach sportif diplômé et je vous propose
-    de vous accompagner dans votre activité sportive de manière à la rendre plus amusante et plus efficace
-    en vous apportant un conseil sur-mesure, réellement adaptés à votre personnalité et à vos
-    capacités physiques.
-    <br/>
-    <br/>
-    Le principe est simple : selon le programme que nous nous sommes fixés, je me rend sur
-    le lieu de votre choix à proximité de Lille, Marcq-en-Barouel et La Madeleine et vous accompagne
-    dans votre entaînement sportif, en m'adaptant
-    à votre emploi du temps, vos envies et vos objectifs.
-    <br/>
-    <br/>
-    Vous êtes désireux d'atteindre enfin les objectifs que vous vous êtes fixés
-    de manière ludique et attractive ? Alors c'est parti.
+    Bonjour, je m'appelle Emmanuel Vanacker, coach sportif diplômé et je vous propose de vous accompagner
+    dans votre activité sportive de manière à la rendre plus amusante et plus efficace
+    en vous apportant un conseil sur mesure, réellement adaptés à votre personnalité et à vos capacités physiques.
+    <br/><br/>
+    Le principe est simple : selon le programme que nous nous sommes fixés,
+    je me rend sur le lieu de votre choix à proximité de Lille, Marcq-en-Baroeul et La Madeleine
+    et vous accompagne dans votre entraînement sportif, en m'adaptant à votre emploi du temps, vos envies et vos objectifs.
+    <br/><br/>
+    Vous êtes désireux d'atteindre enfin les objectifs que vous vous êtes fixés de manière ludique et attractive&nbsp;?
+    Alors c'est parti.
 
 fonctionnement:
   h1: "Le fonctionnement"
@@ -52,13 +48,29 @@ fonctionnement:
     -
       "C'est parti pour l'entraînement, chez vous, en extérieur où vous le désirez, ou en visio-conférence&nbsp;!"
 
+tarifs:
+  h1: "Les tarifs"
+  liste:
+    -
+      title: "À la séance"
+      texte: "Tarif unitaire à la séance, selon la récurrence et la durée d'engagement"
+      prix: "40-60&nbsp;€ la séance"
+    -
+      title: "Au forfait"
+      texte: "Forfait 3 semaines comprenant l'entraînement et la nutrition"
+      prix: "240&nbsp;€ les 12 semaines"
+    -
+      title: "Tarifs spéciaux"
+      texte: "Vidéo-conférences, événements sportifs, coaching en entreprise..."
+      prix: <a href="mailto:test@test.fr">Contactez-moi</a>
+
 seances:
   h1: "Les séances"
   texte: |
-    Les séances d'entraînement durent de 1h à 2h selon vos objectifs et vos disponibilités, et dans le lieu de votre choix (chez vous, par exemple),
-    où je me charge d'apporter le matériel (tapis épais, altères, bandes élastiques, bâton de gym, gymnastique ball...).
-    <br/>
-    <br/>
+    Les séances d'entraînement durent de 1h selon vos objectifs et vos disponibilités,
+    et dans le lieu de votre choix (chez vous, par exemple), où je me charge d'apporter le matériel
+    (tapis épais, altères, bandes élastiques, bâton de gym, gymnastique ball...).
+    <br/><br/>
     Bien qu'un rythme de 2 séances par semaines soit généralement recommandé,
     nous conviendrons ensemble d'une récurrence des séances selon votre emploi du temps
     dans le but d'obtenir le plus rapidement possible les meilleurs résultats.
@@ -67,33 +79,33 @@ pourqui:
   h1: "À qui s'adresse ce programme&nbsp;?"
   texte: |
     Les programmes que je vous propose de suivre sont adaptés à des personnes uniques (vous, par exemple)
-    ou à des groupes de 3 personnes maximum (entre amis, entre collègues), quel que soit l'objectif recherché&nbsp;:
+    ou à des groupes de 3 personnes maximum (entre amis, entre collègues), quel que soit l'objectif recherché :
   liste:
     -
+      "Remise en forme"
+    -
+      "Perte de poids"
+    -
+      "Renforcement musculaire"
+    -
+      "Préparation physique spécifique"
+    -
+      "Amélioration de la posture"
+    -
       "Conseils en nutrition"
-    -
-      "Musculation"
-    -
-      "Fitness"
-    -
-      "Cardio-boxe"
-    -
-      "Relaxation"
-    -
-      "Pré et post natal"
-    -
-      "Préparation physique"
 
 apropos:
   title: "À propos de moi"
   texte: |
-    Je m'appelle Emmanuel Vanacker, j'ai 17 ans et j'habite à Lille. Je suis bien sur passionné avant tout de sport,
-    mais j'aime également lorem ipsum dolore amet.<br/>
-    <br/>
-    Je possède la carte professionnelle d'éducateur sportif, un Master métiers de l'enseignement et de la formation,
-    ainsi qu'une Licence et qu'un DEUG STAPS. Je suis également secouriste Prévention et Secours Civique de niveau 1<br/>
-    <br/>
-    N'hésitez plus... Vous étes entre de bonnes mains !
+    Je m'appelle Emmanuel Vanacker, j'ai 30 ans et j'habite à Lille. Je suis bien sur passionné avant tout de sport,
+    mais j'aime également transmettre mes connaissances et échanger mon expérience sportive et nutritionnelle avec mes pratiquants.
+    <br/><br/>
+    Je me suis formé à la Faculté des sciences du sport de l'éducation physique et sportive à Lille 2,
+    l'obtention de la licence STAPS me permets, d'avoir de la carte professionnelle d'éducateur sportif.
+    Fort de mon expérience depuis 2012 sous la Société MVSPORT, je propose des programmes personnalisés en sport et nutrition.
+    Je suis spécialisé dans la préparation physique rugby et football.
+    <br/><br/>
+    N'hésitez plus... Vous êtes entre de bonnes mains !
 
 avantages:
   h1: "Les avantages d'un coach sportif"
@@ -101,7 +113,7 @@ avantages:
     -
       title: "Un environnement plus propice à l'effort"
       texte: |
-        Les salles de musculation ont certes un aspect plus convivial que l'entrainement à domicile,
+        Les salles de musculation ont certes un aspect plus convivial que l'entraînement à domicile,
         mais la convivialité n'est pas un facteur d'efficacité.
         Elle s'y oppose d'ailleurs souvent. La plupart des clients des salles ne sont pas vraiment là pour s'entrainer.
         Ils y passent le temps ou y viennent pour faire des rencontres.
@@ -113,8 +125,8 @@ avantages:
         Ils doivent être pratiqué sérieusement, et non pas à la légère.
         On s'entraine pour obtenir des résultats, pas par distraction.
         C'est malheureusement ce genre de clients que les salles cherchent à éviter.
-        Elles mettent en avant le côté ludique de l'entrainement physique, délaissant l'efficacité.
-        C'est pour cette raison qu'elles optent pour un bel équipement au détriment d'un bon équipement.
+        Elles mettent en avant le côté ludique de l'entraînement physique, délaissant l'efficacité.
+        C'est pour cette raison qu'elles optent pour un bel équipement au détriment d'un bon entraînement.
     -
       title: "Éviter le piège des machines"
       texte: |
@@ -127,7 +139,7 @@ avantages:
       texte: |
         Chez vous, personne ne vous dérangera pendant l'entraînement afin de vous parler du
         beau temps qu'il fait ou de décréter que vous ne vous entraînez pas convenablement.
-        Vous resterez bien concentré pour un entrainement plus rapide et plus productif.
+        Vous resterez bien concentré pour un entraînement plus rapide et plus productif.
     -
       title: "Le meilleur moyen d'effectuer l'entraînement prévu"
       texte: |
@@ -149,9 +161,9 @@ avantages:
       title: "Économie de temps"
       texte: |
         Aller à la salle peut souvent s'avérer fastidieux. Il faut se préparer, effectuer le trajet,
-        se changer sur place...Puis, après l'entrainement il faut effectuer la démarche inverse.
+        se changer sur place...Puis, après l'entraînement il faut effectuer la démarche inverse.
         Tout cela peut prendre plus de temps que l'entraînement lui même.
-        L'entrainement à domicile permet un gain de temps important sachant que je me déplace chez vous
+        L'entraînement à domicile permet un gain de temps important sachant que je me déplace chez vous
         avec le matériel approprié. L'économie de temps sur une année est assez parlant.
     -
       title: "Parfaite flexibilité des horaires"
@@ -163,11 +175,9 @@ avantages:
       title: "Le suivi d'un bon coach"
       texte: |
         Par mon expérience et les résultats obtenus auprès de plusieurs pratiquants et pratiquantes,
-        je vous garanti un travail efficace et personnalisé.
-        (En trois mois d'activité physique à raison de deux fois par semaine,
-        une de mes pratiquante a perdu 25cm de tour de taille, 17cm de tour de cuisse,
-        13cm de tour de fesse, et une perte de masse grasse d'environ 15 kilos...).
-        J'établis et vous suis tout au long d'un programme d'entrainement, modulable en fonction de vos progrès,
-        adapté à votre niveau et votre morphologie en fonction de vos objectifs.
+        je vous garanti un travail efficace et personnalisé. Un bilan toutes les 5 semaines me permet
+        d'évaluer avec vous vos résultats et vos mensurations. J'établis et vous suis tout au long d'un programme
+        d’entraînement, modulable en fonction de vos progrès, adaptés à votre niveau
+        et votre morphologie en fonction de vos objectifs.
 
 

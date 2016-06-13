@@ -6,10 +6,16 @@
     align-items: flex-start;
     justify-content: flex-start;
 		padding: 30px 40px;
-		box-shadow: 0 0 30px -6px rgba(0, 0, 0, .3);
+		box-shadow: $box-shadow;
 }
 
 .darkpanel {
 	background-color: $black;
 	color: $white;
+}
+
+.colorpanel {
+  background-color: $c1;
+  color: $white;
+  a {color: $white;word-break:normal;}
 }

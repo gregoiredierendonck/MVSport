@@ -17,10 +17,19 @@ div id="introduction" class="grid two-col max-width little-max row"
 		p = data.content.introduction.texte
 
 section id="fonctionnement"
-	h2 = data.content.fonctionnement.h1
+	h2 class="text-center" = data.content.fonctionnement.h1
 	ol class="box-list text-center grid four-col"
 		- data.content.fonctionnement.liste.each_with_index do |listeelement|
 			li class="column whitepanel" = listeelement
+
+section id="tarifs"
+	h2 class="text-center" = data.content.tarifs.h1
+	ul class="box-list grid three-col pricetables"
+		- data.content.tarifs.liste.each_with_index do |listeelement|
+			li class="column"
+				p class="title" = listeelement.title
+				p class="texte" = listeelement.texte
+				p class="prix" = listeelement.prix
 
 = partial 'views/contact'
 
