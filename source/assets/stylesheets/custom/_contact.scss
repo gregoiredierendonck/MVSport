@@ -6,6 +6,7 @@
   position: relative;
 
   h2, .h2, p {text-align: center;}
+  a {margin-top: 0;}
 
   .h2 {color: $c1;}
 
@@ -26,6 +27,7 @@
     color: $c1;
     font-size: 24px;
     font-weight: 400;
+    line-height: 26px;
   }
 
   .offrecontact {

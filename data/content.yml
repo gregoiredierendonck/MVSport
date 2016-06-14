@@ -52,12 +52,14 @@ tarifs:
   h1: "Les tarifs"
   liste:
     -
-      title: "À la séance"
-      texte: "Tarif unitaire à la séance, selon la récurrence et la durée d'engagement"
+      title: "À domicile"
+      texte: "Entraînement et suivi à domicile, selon vos objectifs et votre disponibilité.
+      Tarif unitaire à la séance, selon la récurrence et la durée d'engagement."
       prix: "40-60&nbsp;€ la séance"
     -
-      title: "Au forfait"
-      texte: "Forfait 3 semaines comprenant l'entraînement et la nutrition"
+      title: "À distance"
+      texte: "J'établi pour vous un programme spécifique d'entraînement et de nutrition pour 3 mois,
+      évolutif mensuellement et comprenant un suivi hebdomadaire, que vous réalisez à domicile."
       prix: "240&nbsp;€ les 12 semaines"
     -
       title: "Tarifs spéciaux"

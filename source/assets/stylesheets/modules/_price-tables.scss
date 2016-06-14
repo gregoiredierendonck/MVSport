@@ -28,6 +28,10 @@
       padding: 5px 10px;
     }
 
+    .texte {
+      flex: 1;
+    }
+
     .prix, a {
       font-size: 18px;
       font-weight: 400;
@@ -49,6 +53,7 @@
       &.column {
         width: 100% !important;
         align-items: flex-start;
+        text-align: left;
       }
     }
   }
