@@ -12,7 +12,7 @@ div id="hero-intro"
 
 div id="introduction" class="grid two-col max-width little-max row"
 	div class="column text-center"
-		= image_tag data.content.imageone.path, alt: "#{data.settings.site.title} - #{data.content.imageone.title}", class: "b-right column"
+		= image_tag data.content.imageone.path, alt: "#{data.settings.site.title} - #{data.content.imageone.title}", class: "column"
 	div class="text column p-left"
 		p = data.content.introduction.texte
 
@@ -36,7 +36,7 @@ section id="tarifs"
 = partial 'views/contact'
 
 div class="image-only"
-	= image_tag data.content.imagetwo.path, alt: "#{data.settings.site.title} - #{data.content.imagetwo.title}", class: "b-bottom"
+	= image_tag data.content.imagetwo.path, alt: "#{data.settings.site.title} - #{data.content.imagetwo.title}"
 
 div class="grid two-col max-width little-max row"
 	section id="pourqui" class="column p-right"
@@ -55,7 +55,7 @@ section id="apropos" class="little-max"
 			h2 = data.content.apropos.title
 			p = data.content.apropos.texte
 		div class="column"
-			= image_tag data.content.imagethree.path, alt: "#{data.settings.site.title} - #{data.content.imagethree.title}", class: "b-left"
+			= image_tag data.content.imagethree.path, alt: "#{data.settings.site.title} - #{data.content.imagethree.title}"
 
 = partial 'views/contact'
 
@@ -67,6 +67,9 @@ section id="avantages"
 				= image_tag listeelement.image, alt: "#{listeelement.title}"
 				h3 = listeelement.title
 				p = listeelement.texte
+
+div class="image-only"
+	= image_tag data.content.imagefour.path, alt: "#{data.settings.site.title} - #{data.content.imagefour.title}", class: "littleimg"
 
 = partial 'views/contact'
 

@@ -14,13 +14,19 @@ contact:
 
 imageone:
   path: "img1.jpg"
-  title: "XXX"
+  title: "mvsport-portrait-présentation"
 imagetwo:
-  path: "http://placehold.it/800x500"
-  title: "XXX"
+  path: "img2.jpg"
+  title: "mvsport-portrait-musculation"
 imagethree:
-  path: "http://placehold.it/400x400"
-  title: "XXX"
+  path: "portrait.jpg"
+  title: "mvsport-portrait-box"
+imagefour:
+  path: "img3.jpg"
+  title: "mvsport-séance"
+imagefive:
+  path: "img4.jpg"
+  title: "mvsport-matériel"
 
 introduction:
   texte: |
