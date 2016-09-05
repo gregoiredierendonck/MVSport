@@ -5,8 +5,7 @@ logo:
 
 contact:
   title: "Prêt à obtenir des résultats&nbsp;?"
-  texte: "Téléphonez-moi <i>(7j/7 de 08h à 22h)</i> ou laissez-moi vos coordonnées par sms ou par email, <br/>
-  et nous conviendrons d'un premier rendez-vous pour définir vos objectifs et votre programme sportif."
+  texte: "Joignable par téléphone 7j/j de 08h à 22h ou par mail <br/>pour convenir d’un premier rendez-vous afin de définir vos objectifs et votre programme sportif."
   teltexte: "Par téléphone&nbsp;:"
   telinfo: "06&nbsp;21&nbsp;72&nbsp;12&nbsp;05"
   emailtexte: "Par email&nbsp;:"
@@ -25,53 +24,56 @@ imagethree:
 
 introduction:
   texte: |
-    Bonjour, je m'appelle Emmanuel Vanacker, coach sportif diplômé et je vous propose de vous accompagner
-    dans votre activité sportive de manière à la rendre plus amusante et plus efficace
-    en vous apportant un conseil sur mesure, réellement adaptés à votre personnalité et à vos capacités physiques.
+    Bonjour, je m'appelle Emmanuel Vanacker, coach sportif diplômé.
+    Je propose de vous accompagner dans votre activité sportive de façon à la rendre plus efficace et amusante
+    grâce à des conseils sur-mesure, réellement adaptés à vos capacités physiques et à votre personnalité.
     <br/><br/>
-    Le principe est simple : selon le programme que nous nous sommes fixés,
-    je me rend sur le lieu de votre choix à proximité de Lille, Marcq-en-Baroeul et La Madeleine
-    et vous accompagne dans votre entraînement sportif, en m'adaptant à votre emploi du temps, vos envies et vos objectifs.
+    Le principe est simple : selon le programme que nous nous sommes fixés, je me rends sur le lieu de votre choix
+    à proximité de <b>Lille, Marcq-en-Baroeul et La Madeleine</b>, et vous accompagne dans votre entraînement sportif,
+    en m'adaptant à votre emploi du temps, vos envies et vos objectifs.
     <br/><br/>
     Vous êtes désireux d'atteindre enfin les objectifs que vous vous êtes fixés de manière ludique et attractive&nbsp;?
-    Alors c'est parti.
+    Alors c'est parti&nbsp;!
 
 fonctionnement:
   h1: "Le fonctionnement"
   liste:
     -
-      "Vous me contactez, vous me laissez vos coordonnées et je vous rappelle au moment que vous désirez."
+      title: "Prise de contact"
+      texte: "Vous me laissez vos coordonnées en précisant un créneau de disponibilité afin que nous puissions discuter plus amplement."
     -
-      "Nous définissons vos objectifs, discutons de vos envies et de vos disponibilités."
+      title: "Définition de vos objectifs"
+      texte: "Nous discutons ensemble de vos envies et de vos disponibilités."
     -
-      "Je vous propose un programme détaillé de séances à effectuer pour atteindre vos objectifs."
+      title: "Réalisation d’un programme"
+      texte: "Je mets au point un programme détaillé de séances à effectuer pour atteindre vos objectifs."
     -
-      "C'est parti pour l'entraînement, chez vous, en extérieur où vous le désirez, ou en visio-conférence&nbsp;!"
+      title: "L'entraînement"
+      texte: "Peu importe où vous le désirez, que ce soit chez vous, en extérieur ou en salle, voire même en visio-conférence, je reste à vos côtés."
 
 tarifs:
   h1: "Les tarifs"
   liste:
     -
       title: "À domicile"
-      texte: "Entraînement et suivi à domicile, selon vos objectifs et votre disponibilité.
-      Tarif unitaire à la séance, selon la récurrence et la durée d'engagement."
+      texte: "Entraînement et suivi à domicile, selon vos objectifs et votre disponibilité. Tarif unitaire à la séance, selon la récurrence et la durée d'engagement."
       prix: "40-60&nbsp;€ la séance"
     -
       title: "À distance"
-      texte: "J'établi pour vous un programme spécifique d'entraînement et de nutrition pour 3 mois,
-      évolutif mensuellement et comprenant un suivi hebdomadaire, que vous réalisez à domicile ou en salle de musculation."
+      texte: "J'établis pour vous un programme spécifique d'entraînement et de nutrition pour 3 mois,
+      évolutif mensuellement et comprenant un suivi hebdomadaire, que vous réalisez à domicile ou en salle de remise en forme."
       prix: "240&nbsp;€ les 12 semaines"
     -
       title: "Tarifs spéciaux"
-      texte: "Vidéo-conférences, événements sportifs, coaching en entreprise..."
+      texte: "Vidéo-conférences, événements sportifs, coaching en entreprise…"
       prix: <a href="mailto:test@test.fr">Contactez-moi</a>
 
 seances:
   h1: "Les séances"
   texte: |
-    Les séances d'entraînement durent de 1h selon vos objectifs et vos disponibilités,
-    et dans le lieu de votre choix (chez vous, par exemple), où je me charge d'apporter le matériel
-    (tapis épais, altères, bandes élastiques, bâton de gym, gymnastique ball...).
+    Les séances d'entraînement durent 1 heure selon vos objectifs et vos disponibilités,
+    et dans le lieu de votre choix. Je me charge d'apporter le matériel
+    (tapis épais, haltères, bandes élastiques, bâton de gym, gymnastique ball...).
     <br/><br/>
     Bien qu'un rythme de 2 séances par semaines soit généralement recommandé,
     nous conviendrons ensemble d'une récurrence des séances selon votre emploi du temps
@@ -80,8 +82,8 @@ seances:
 pourqui:
   h1: "À qui s'adresse ce programme&nbsp;?"
   texte: |
-    Les programmes que je vous propose de suivre sont adaptés à des personnes uniques (vous, par exemple)
-    ou à des groupes de 3 personnes maximum (entre amis, entre collègues), quel que soit l'objectif recherché :
+    Les programmes que je propose sont adaptés à des personnes uniques (vous, par exemple)
+    ou à des groupes de 3 personnes maximum (entre amis, entre collègues), quel que soit l'objectif recherché&nbsp;:
   liste:
     -
       "Remise en forme"
@@ -103,64 +105,70 @@ apropos:
     mais j'aime également transmettre mes connaissances et échanger mon expérience sportive et nutritionnelle avec mes pratiquants.
     <br/><br/>
     Je me suis formé à la Faculté des sciences du sport de l'éducation physique et sportive à Lille 2,
-    l'obtention de la licence STAPS me permets, d'avoir de la carte professionnelle d'éducateur sportif.
+    l'obtention de la licence STAPS me permet d'avoir de la carte professionnelle d'éducateur sportif.
     Fort de mon expérience depuis 2012 sous la Société MVSPORT, je propose des programmes personnalisés en sport et nutrition.
     Je suis spécialisé dans la préparation physique rugby et football.
     <br/><br/>
-    N'hésitez plus... Vous êtes entre de bonnes mains !
+    N'hésitez plus... Vous êtes entre de bonnes mains&nbsp;!
 
 avantages:
   h1: "Les avantages d'un coach sportif"
   liste:
     -
       title: "Un environnement plus propice à l'effort"
+      image: "home.svg"
       texte: |
         Les salles de musculation ont certes un aspect plus convivial que l'entraînement à domicile,
         mais la convivialité n'est pas un facteur d'efficacité.
-        Elle s'y oppose d'ailleurs souvent. La plupart des clients des salles ne sont pas vraiment là pour s'entrainer.
+        Elle s'y oppose d'ailleurs souvent. La plupart des clients des salles ne sont pas vraiment là pour s'entraîner.
         Ils y passent le temps ou y viennent pour faire des rencontres.
-        Les individus s'entraînant sérieusement y sont regardés comme des extraterrestres.
+        Les individus s'entraînant sérieusement y sont regardés comme des <i>extraterrestres</i>.
     -
       title: "Les résultats avant tout"
+      image: "win.svg"
       texte: |
-        La musculation, le fitness, la préparation physique sont plus qu'un loisir.
-        Ils doivent être pratiqué sérieusement, et non pas à la légère.
-        On s'entraine pour obtenir des résultats, pas par distraction.
+        La musculation, le fitness et la préparation physique sont plus qu'un loisir.
+        Ils doivent être pratiqués sérieusement, et non pas à la légère.
+        Nous nous entraînons pour obtenir des résultats, pas par distraction.
         C'est malheureusement ce genre de clients que les salles cherchent à éviter.
-        Elles mettent en avant le côté ludique de l'entraînement physique, délaissant l'efficacité.
+        Elles mettent en avant l’aspect ludique de l'entraînement physique, délaissant l'efficacité.
         C'est pour cette raison qu'elles optent pour un bel équipement au détriment d'un bon entraînement.
     -
-      title: "Éviter le piège des machines"
+      title: "Le piège des machines"
+      image: "temps.svg"
       texte: |
-        Force est de constater que dans de nombreuses salles, le choix de l'équipement a été fait en fonction
-        du coût des appareils plutôt que de leur efficacité. Il en résulte des machines peu efficaces
-        et qui défient l'anatomie humaine. Elles sont dangereuse pour les muscles et les articulations,
-        sans pour autant être efficace.
+        Force est de constater que dans de nombreuses salles, le choix de l'équipement a été fait
+        en fonction du coût des appareils plutôt que de leur efficacité.
+        Il en résulte des machines peu efficaces et qui défient l'anatomie humaine.
+        Mal utilisées, elles sont dangereuses pour les muscles et les articulations, sans pour autant être efficace.
     -
       title: "Une meilleure concentration"
+      image: "goal.svg"
       texte: |
-        Chez vous, personne ne vous dérangera pendant l'entraînement afin de vous parler du
-        beau temps qu'il fait ou de décréter que vous ne vous entraînez pas convenablement.
-        Vous resterez bien concentré pour un entraînement plus rapide et plus productif.
+        Chez vous, personne ne vous dérangera pendant l'entraînement afin de vous parler du beau temps
+        qu'il fait ou de décréter que vous ne vous entraînez pas convenablement.
+        Vous gagnerez en concentration pour un entraînement plus rapide et plus productif.
     -
       title: "Le meilleur moyen d'effectuer l'entraînement prévu"
+      image: "calendar.svg"
       texte: |
         En salle, vos temps de repos dépendent en grande partie des autres clients.
         Les choix des exercices ou du matériel est contingenté par ce qui est disponible
         au moment où vous vous entraînez. Tout cela correspond rarement au programme
-        que vous vous êtes fixé en fonction de vos objectifs. L'entraînement en circuit,
-        pourtant indispensable pour la musculation des sportifs y est quasiment impossible.
+        que vous vous êtes fixés en fonction de vos objectifs. L'entraînement en circuit,
+        pourtant indispensable pour la musculation des sportifs, y est quasiment impossible.
         L'entraînement à domicile vous rendra cette liberté.
     -
       title: "Élimination de l'égo"
+      image: "eye.svg"
       texte: |
-        Devant les autres, afin de ne pas paraître ridicule, on a tendance à effectuer s
-        es exercices un peu n'importe comment, dans le but de prendre le plus lourd possible.
-        A terme cela va se traduire par une moindre progression, à laquelle s'ajoute un plus
-        grand risque de blessure. A domicile, il n'y a personne a impressionner.
+        Devant les autres, afin de ne pas paraître ridicule, nous avons tendance à effectuer ses exercices un peu n'importe comment,
+        dans le but de pousser le plus lourd possible. À terme, cela va se traduire par une moindre progression,
+        à laquelle s'ajoute un plus grand risque de blessure. À domicile, il n'y a personne à impressionner.
         Vous pouvez vous focaliser sur un travail efficace, plutôt que de chercher à impressionner les autres.
     -
       title: "Économie de temps"
+      image: "time.svg"
       texte: |
         Aller à la salle peut souvent s'avérer fastidieux. Il faut se préparer, effectuer le trajet,
         se changer sur place...Puis, après l'entraînement il faut effectuer la démarche inverse.
@@ -169,17 +177,29 @@ avantages:
         avec le matériel approprié. L'économie de temps sur une année est assez parlant.
     -
       title: "Parfaite flexibilité des horaires"
+      image: "smile.svg"
       texte: |
-        En salle, on finit esclave des horaires d'ouverture et l'on est dépendant des heures de pointe.
+        En salle, nous devons nous soumettre aux horaires d'ouverture et fermeture, ainsi qu’aux heures de forte influence.
         L'entraînement à domicile autorise une parfaite flexibilité de ses horaires.
-        On peut s'entrainer le matin, le soir ou alterner soir et matin pour mieux accommoder son emploi du temps.
+        Nous pouvons nous entraîner le matin, le soir, ou alterner soir et matin pour mieux accommoder son emploi du temps.
     -
       title: "Le suivi d'un bon coach"
+      image: "suivi.svg"
       texte: |
         Par mon expérience et les résultats obtenus auprès de plusieurs pratiquants et pratiquantes,
-        je vous garanti un travail efficace et personnalisé. Un bilan toutes les 5 semaines me permet
-        d'évaluer avec vous vos résultats et vos mensurations. J'établis et vous suis tout au long d'un programme
-        d’entraînement, modulable en fonction de vos progrès, adaptés à votre niveau
-        et votre morphologie en fonction de vos objectifs.
+        je vous garantis un travail efficace et personnalisé.
+        Un bilan toutes les 5 semaines me permet d'évaluer avec vous vos résultats et vos mensurations.
+        J'établis et vous suis tout au long du programme d’entraînement, modulable en fonction de vos progrès,
+        adaptés à votre niveau et votre morphologie et en fonction de vos objectifs.
 
-
+social:
+  p: "Retrouvez-moi sur&nbsp;:"
+  liste:
+    -
+      texte: "Facebook"
+      image: "facebook.svg"
+      link: "https://www.facebook.com/mvsport.vanacker"
+    -
+      texte: "Instagram"
+      image: "instagram.svg"
+      link: "#"

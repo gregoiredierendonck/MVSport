@@ -38,9 +38,14 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 140%;
-  margin: 30px 0 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $c1;
+  width: 100%;
+  text-align: center;
+  margin: 0 0 20px;
 }
 
 ul, ol {

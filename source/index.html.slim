@@ -20,7 +20,9 @@ section id="fonctionnement"
 	h2 class="text-center" = data.content.fonctionnement.h1
 	ol class="box-list text-center grid four-col"
 		- data.content.fonctionnement.liste.each_with_index do |listeelement|
-			li class="column whitepanel" = listeelement
+			li class="column whitepanel"
+				h3 = listeelement.title
+				p = listeelement.texte
 
 section id="tarifs"
 	h2 class="text-center" = data.content.tarifs.h1
@@ -62,7 +64,17 @@ section id="avantages"
 	ul class="box-list grid three-col"
 		- data.content.avantages.liste.each_with_index do |listeelement|
 			li class="column whitepanel"
+				= image_tag listeelement.image, alt: "#{listeelement.title}"
 				h3 = listeelement.title
 				p = listeelement.texte
 
 = partial 'views/contact'
+
+section id="social" class="ddpanel no-max"
+	p = data.content.social.p
+	ul
+		- data.content.social.liste.each_with_index do |socialelement|
+			li
+				= link_to "#{socialelement.link}", class: 'sociallink' do
+					= image_tag socialelement.image, alt: "#{socialelement.texte}"
+					p = socialelement.texte
