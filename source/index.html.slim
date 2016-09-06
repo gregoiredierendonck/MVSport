@@ -35,7 +35,7 @@ section id="tarifs"
 
 = partial 'views/contact'
 
-div class="image-only"
+div class="image-only max-img"
 	= image_tag data.content.imagetwo.path, alt: "#{data.settings.site.title} - #{data.content.imagetwo.title}"
 
 div class="grid two-col max-width little-max row"
@@ -78,6 +78,6 @@ section id="social" class="ddpanel no-max"
 	ul
 		- data.content.social.liste.each_with_index do |socialelement|
 			li
-				= link_to "#{socialelement.link}", class: 'sociallink' do
+				= link_to "#{socialelement.link}", class: 'sociallink', target: "_blank" do
 					= image_tag socialelement.image, alt: "#{socialelement.texte}"
 					p = socialelement.texte

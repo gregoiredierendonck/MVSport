@@ -30,7 +30,12 @@ body {
     width: 100%;
     max-width: $max-width;
     text-align: center;
-    margin: 50px auto;
+    margin: 50px auto 30px;
+    img {
+      vertical-align: bottom;
+    }
+    &:last-of-type {margin-bottom: -70px;}
+    &.max-img {max-width: 1000px;}
   }
 
 }
