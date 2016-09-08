@@ -40,3 +40,11 @@ configure :build do
 	set :relative_links, true
 	ignore 'imageoptim.manifest.yml'
 end
+
+# disable htaccess layout
+page ".htaccess.apache", :layout => false
+
+# rename htaccess file after build
+after_build do
+  File.rename 'build/.htaccess.apache', 'build/.htaccess'
+end

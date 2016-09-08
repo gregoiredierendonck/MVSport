@@ -5,9 +5,9 @@ section class="contact darkpanel no-max"
     div class="contactinfos grid two-col"
       div class="column"
         span class="contactlegend" = data.content.contact.teltexte
-        span class="contactbig" = data.content.contact.telinfo
+        span class="contactbig" = data.settings.site.tel
       div class="column"
         span class="contactlegend" = data.content.contact.emailtexte
-        = link_to data.content.contact.emailinfo, "mailto:#{data.content.contact.emailinfo}", class:"contactbig"
+        = link_to data.settings.site.email, "mailto:#{data.settings.site.email}", class:"contactbig"
     div class="offrecontact"
       p = data.content.contact.offre
