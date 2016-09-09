@@ -21,14 +21,6 @@ after_configuration do
 	sprockets.append_path File.join "#{root}", @bower_config["directory"]
 end
 
-# Add "is-active" class to nav li of current page
-helpers do
-  def active_page_class(page)
-  	puts current_page.url
-    current_page.url == page ? 'is-active' : ''
-  end
-end
-
 # Build-specific configuration
 configure :build do
 	activate :minify_css
@@ -39,4 +31,10 @@ configure :build do
 	activate :cache_buster
 	set :relative_links, true
 	ignore 'imageoptim.manifest.yml'
+end
+
+# rename file after build
+# View : http://coderwall.com/p/daflfq/generate-htaccess-in-middleman
+after_build do
+  File.rename 'build/.htaccess.apache', 'build/.htaccess'
 end
