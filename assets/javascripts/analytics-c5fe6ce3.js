@@ -1,1 +1,0 @@
-function gaTracker(a){$.getScript("//www.google-analytics.com/analytics.js"),window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create",a,"auto"),ga("send","pageview")}function gaTrack(a,g){ga("set",{page:a,title:g}),ga("send","pageview")}gaTracker("UA-69304119-3");
