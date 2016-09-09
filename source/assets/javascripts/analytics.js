@@ -14,3 +14,13 @@ function gaTrack(path, title) {
 
 // Initiate the tracker after app has loaded
 gaTracker('UA-69304119-3');
+
+// Event tracking on "contact button" click
+$('.contactbig').click(function() {
+  ga('send', {
+    hitType: 'event',
+    eventCategory: 'Contact',
+    eventAction: 'contact button click',
+    eventLabel: 'contact button click'
+  });
+});
